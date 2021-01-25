@@ -1,4 +1,4 @@
-module solid-go
+module gin-go-clean-architecture
 
 go 1.15
 

@@ -1,10 +1,10 @@
 package service
 
 import (
+	"gin-go-clean-architecture/entity"
+	"gin-go-clean-architecture/repository"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"solid-go/entity"
-	"solid-go/repository"
 	"testing"
 )
 

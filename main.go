@@ -1,13 +1,13 @@
 package main
 
 import (
+	"gin-go-clean-architecture/controller"
+	"gin-go-clean-architecture/db"
+	"gin-go-clean-architecture/middleware"
+	"gin-go-clean-architecture/repository"
+	"gin-go-clean-architecture/service"
+	"gin-go-clean-architecture/storage"
 	"github.com/gin-gonic/gin"
-	"solid-go/controller"
-	"solid-go/db"
-	"solid-go/middleware"
-	"solid-go/repository"
-	"solid-go/service"
-	"solid-go/storage"
 )
 
 var (

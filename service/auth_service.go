@@ -2,12 +2,12 @@ package service
 
 import (
 	"errors"
+	"gin-go-clean-architecture/entity"
+	"gin-go-clean-architecture/repository"
+	"gin-go-clean-architecture/storage"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
 	"io"
-	"solid-go/entity"
-	"solid-go/repository"
-	"solid-go/storage"
 )
 
 type AuthService interface {

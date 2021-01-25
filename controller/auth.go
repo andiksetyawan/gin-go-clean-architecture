@@ -1,12 +1,12 @@
 package controller
 
 import (
+	"gin-go-clean-architecture/entity"
+	"gin-go-clean-architecture/model"
+	"gin-go-clean-architecture/service"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
-	"solid-go/entity"
-	"solid-go/model"
-	"solid-go/service"
 )
 
 type AuthCont struct {

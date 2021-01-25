@@ -2,10 +2,10 @@ package repository
 
 import (
 	"context"
+	"gin-go-clean-architecture/entity"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"log"
-	"solid-go/entity"
 )
 
 type UserRepository interface {

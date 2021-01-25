@@ -1,9 +1,9 @@
 package middleware
 
 import (
+	"gin-go-clean-architecture/model"
+	"gin-go-clean-architecture/service"
 	"net/http"
-	"solid-go/model"
-	"solid-go/service"
 	"strings"
 
 	"github.com/dgrijalva/jwt-go"
